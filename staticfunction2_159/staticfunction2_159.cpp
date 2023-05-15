@@ -42,7 +42,7 @@ int main() {
 	mhs3.printALL();
 	mhs4.printALL();
 
-	cout << "Akses dari luar objek =" << mahasiswa::getNim() << endl;	//mengakses nim
+	cout << "Akses dari luar objek =" << mahasiswa::getNim() << endl;	//mengakses nim 
 	system("pause");
 
 	return 0;
