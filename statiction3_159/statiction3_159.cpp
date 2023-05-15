@@ -9,17 +9,17 @@ public:
 	{
 		this->judul;
 		return *this; //chain fuction
-}
+	}
 	string getJudul()
 	{
 		return this->judul;
 	}
-};
+} bukunya;
 
 int main()
 {
-	//bukunya.setJudul("Matematika").getJudul();
-	// cout << bukunya.getJudul();
+		// bukunya.setJudul("Matematika").getJudul();
+		// cout << bukunya.getJudul();
 	cout << bukunya.setJudul("Matematika").getJudul(); //chain function calls
 	return 0;
 }
