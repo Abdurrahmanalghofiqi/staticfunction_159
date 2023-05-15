@@ -20,6 +20,6 @@ int main()
 {
 		// bukunya.setJudul("Matematika").getJudul();
 		// cout << bukunya.getJudul();
-	cout << bukunya.setJudul("Matematika").getJudul(); //chain function calls
+	cout << bukunya.setjudul("Matematika").getJudul(); //chain function calls
 	return 0;
 }
