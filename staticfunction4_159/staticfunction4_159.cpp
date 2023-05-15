@@ -27,7 +27,7 @@ angka::~angka() {	//Desctructor
 
 void angka::cetakData() {
 	for (int i = 1; i <= panjang; i++) {
-		cout << i" << = ";cin >> arr[i];
+		cout << i <<" = ";cin >> arr[i];
 	}
 	cout << endl;
 }
